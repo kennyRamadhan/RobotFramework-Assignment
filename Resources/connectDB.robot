@@ -9,6 +9,6 @@ ${ORACLE DATABASE URL}          https://qademo.onebrick.io/h2
 ${ORACLE DATABASE USER}         sa
 ${ORACLE DATABASE DRIVER}       org.h2.Driver
 ${ORACLE DATABASE PASSWORD}
-*** Test Cases ***
+*** Keywords ***
 Verify DB Connect    
     Connect To Database      ${ORACLE DATABASE DRIVER}      ${ORACLE DATABASE URL}  ${ORACLE DATABASE USER}  ${ORACLE DATABASE PASSWORD}
