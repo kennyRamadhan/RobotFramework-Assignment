@@ -5,6 +5,8 @@ Resource    ../Variables/loginFiles.robot
 
 *** Test Cases ***
 Login With Valid User
+    #I Already Change the IS_VERIFIED to be TRUE in DB , 
+    # however its succes login when i try manual but somehow it failed when running from robot 
     Open My Browser    ${URL}    ${Browser}
     Input Valid Username    ${username}
     Input Valid Password    ${password}

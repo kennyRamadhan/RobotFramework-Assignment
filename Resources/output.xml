@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-04-05T13:41:56.776832" rpa="false" schemaversion="5">
+<suite id="s1" name="connectDB" source="D:\brickAssignment\Resources\connectDB.robot">
+<test id="s1-t1" name="Verify DB Connect" line="13">
+<kw name="Connect To Database" owner="DatabaseLibrary">
+<msg time="2024-04-05T13:41:57.003698" level="FAIL">ValueError: Required 'dbHost' parameter was not provided in keyword arguments.</msg>
+<arg>${ORACLE DATABASE DRIVER}</arg>
+<arg>${ORACLE DATABASE URL}</arg>
+<arg>${ORACLE DATABASE USER}</arg>
+<arg>${ORACLE DATABASE PASSWORD}</arg>
+<doc>Loads the DB API 2.0 module given ``dbapiModuleName`` then uses it to
+connect to the database using provided parameters such as ``dbName``, ``dbUsername``, and ``dbPassword``.</doc>
+<status status="FAIL" start="2024-04-05T13:41:57.003698" elapsed="0.000000">ValueError: Required 'dbHost' parameter was not provided in keyword arguments.</status>
+</kw>
+<status status="FAIL" start="2024-04-05T13:41:57.003698" elapsed="0.000000">ValueError: Required 'dbHost' parameter was not provided in keyword arguments.</status>
+</test>
+<status status="FAIL" start="2024-04-05T13:41:56.776832" elapsed="0.234386"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="connectDB">connectDB</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
